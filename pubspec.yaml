@@ -3,8 +3,12 @@ description: A new Flutter application.
 
 version: 1.0.0+1
 
+analyzer:
+  enable-experiment:
+    - non-nullable
+
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.13.0-68.0.dev <3.0.0"
 
 dependencies:
   flutter:
